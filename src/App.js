@@ -1,6 +1,5 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import TopNavigation from "./Components/TopNavigation/TopNavigation.jsx";
 import Home from "./Pages/Home.jsx";
 
 function App() {

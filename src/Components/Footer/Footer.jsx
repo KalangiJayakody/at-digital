@@ -7,7 +7,7 @@ const Footer = () => {
     <div id="footer-container">
       <div id="footer-text-container">
         <div style={{ marginLeft: "5%" }}>
-          <img src={logo} id="footer-logo" />
+          <img src={logo} id="footer-logo" alt="footer-logo" />
           <p id="footer-description">
             Your goal is our target. Not anything in between. We use online
             marketing platforms and tools to achieve single objective - your
