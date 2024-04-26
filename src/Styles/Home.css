@@ -1,0 +1,379 @@
+#home-page-image {
+  width: 100%;
+  height: 763px;
+  object-fit: cover;
+  object-position: center;
+  margin: 0;
+  padding: 0;
+}
+
+#middle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 40px 32px;
+  gap: 20px;
+
+  position: absolute;
+  width: 630px;
+  height: 306px;
+  left: 80px;
+  bottom: 40px;
+
+  background: linear-gradient(256.73deg, #1cbddd 27.86%, #4dca79 100%), #ffffff;
+}
+
+#middle-sent {
+  width: 556px;
+  height: 192px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.button-consultation {
+  display: flex;
+  padding: 12px 20px;
+  background: #f28d35;
+  height: 38px;
+  margin-top: -8%;
+}
+
+.button-learnmore {
+  display: flex;
+  padding: 12px 20px;
+  background: #f28d35;
+  height: 38px;
+}
+
+#button-consultation-text {
+  width: 174px;
+  height: 14px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  top: 70px;
+}
+
+#container-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#home-page-image-2 {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  width: 414px;
+  height: 414px;
+}
+
+.content-container {
+  flex: 1;
+}
+
+.text-container-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 33px;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #6b3cc9;
+}
+
+.text-container-body {
+  width: 90%;
+  height: 30%;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  text-align: left;
+}
+
+#faq-title {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 33px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #6b3cc9;
+}
+
+.faq-set {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faq-container {
+  background-color: #faf8ff;
+  width: 100%;
+  max-width: 50%;
+  padding: 20px;
+}
+
+#faq-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.faq {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.4px;
+  text-align: center;
+  color: #6b3cc9;
+}
+
+.faq-expand {
+  cursor: pointer;
+}
+
+.faq-answer {
+  color: #6b3cc9;
+}
+
+@media (max-width: 1200px) {
+  #middle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    position: absolute;
+    width: 550px;
+    height: 280px;
+    left: 5%;
+    bottom: -20%;
+    background: linear-gradient(256.73deg, #1cbddd 27.86%, #4dca79 100%),
+      #ffffff;
+  }
+
+  #middle-sent {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 90%;
+    text-transform: capitalize;
+    color: #ffffff;
+    top: 20%;
+  }
+
+  .button-consultation {
+    display: flex;
+    padding: 12px 20px;
+    background: #f28d35;
+    height: 38px;
+    margin-top: -15%;
+  }
+}
+
+@media (max-width: 768px) {
+  #home-page-image {
+    width: 100%;
+    height: 448px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+    padding: 0;
+  }
+  #middle-container {
+    padding: 24px 40px 32px;
+    gap: 20px;
+    width: 90%;
+    height: 306px;
+    bottom: -50%;
+    left: 0%;
+    position: relative;
+    background: linear-gradient(256.73deg, #1cbddd 27.86%, #4dca79 100%),
+      #ffffff;
+  }
+  #middle-sent {
+    width: 95%;
+    height: 192px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    /* or 48px */
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  #home-page-image {
+    width: 100%;
+    height: 218px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+    padding: 0;
+  }
+  #middle-container {
+    padding: 14px 15px 22px 22px;
+    gap: 20px;
+    width: 90%;
+    height: 306px;
+    bottom: -50%;
+    left: 0%;
+    position: relative;
+    background: linear-gradient(256.73deg, #1cbddd 27.86%, #4dca79 100%),
+      #ffffff;
+  }
+  #middle-sent {
+    width: 95%;
+    height: 192px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #ffffff;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  #container-1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  #container-2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .image-container {
+    margin-bottom: 20px;
+  }
+
+  #home-page-image-2 {
+    width: 275px;
+    height: 275px;
+  }
+
+  .text-container {
+    width: 100%;
+    align-items: center;
+  }
+
+  .text-container-title {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #6b3cc9;
+    margin-bottom: 10px;
+  }
+
+  .text-container-body {
+    width: 80%;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button-learnmore {
+    display: flex;
+    padding: 12px 20px;
+    background: #f28d35;
+    height: 38px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #faq-title {
+    font-family: "Poppins", sans-serif;
+    width: 70%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #6b3cc9;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20%;
+  }
+
+  #container-2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .faq {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: #6b3cc9;
+  }
+}

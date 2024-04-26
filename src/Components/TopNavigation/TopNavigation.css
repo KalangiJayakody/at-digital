@@ -1,0 +1,135 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #6b3cc9;
+  padding: 26px 20px;
+  height: 77px;
+}
+
+#logo {
+  width: 238.89px;
+  height: 35px;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#navbar li {
+  list-style: none;
+  padding: 0 28px;
+  position: relative;
+}
+
+.nav-link {
+  width: 73px;
+  height: 17px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: aqua;
+  text-decoration: none;
+}
+
+#icon-bar {
+  color: #ffffff;
+}
+
+#mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6b3cc9;
+    padding: 0px 20px;
+    height: 77px;
+  }
+  .nav-link {
+    width: 80px;
+    height: 17px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-decoration: none;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 17px;
+    color: #ffffff;
+    margin-top: -5%;
+    transition: 0.3s ease-in-out;
+  }
+}
+
+@media (max-width: 375px) {
+  #mobile {
+    display: block;
+  }
+
+  #bar {
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 90px;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    background-color: coral;
+    transition: 0.3s ease-in-out;
+  }
+
+  #navbar.active {
+    right: 0px;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+}
+/* @media screen and (max-width: 375px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  #navbar li {
+    margin-bottom: 25px;
+  }
+
+  #mobile i {
+    font-size: 24px;
+    cursor: pointer;
+  }
+} */

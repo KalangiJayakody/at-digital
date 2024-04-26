@@ -1,0 +1,153 @@
+#footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #6b3cc9;
+  margin-top: 10%;
+  padding: 26px 20px;
+}
+
+#footer-logo {
+  width: 240px;
+  height: 35px;
+  margin-top: 3%;
+}
+
+#footer-text-container {
+  display: flex;
+  color: #ffffff;
+}
+
+#footer-text-container > div:first-child {
+  width: 60%;
+}
+
+#footer-text-container > div:nth-child(2) {
+  width: 20%;
+}
+
+#footer-text-container > div:last-child {
+  width: 20%;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 2%;
+}
+
+.footer-column-titles {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+#footer-horizontal-line {
+  color: #ffffff;
+  width: 630px;
+}
+
+#footer-description {
+  width: 60%;
+  text-align: left;
+}
+
+.footer-technologies {
+  font-family: "Inter";
+}
+
+#privacy-term {
+  color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  #footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #footer-text-container {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  #footer-text-container > div {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  #footer-logo {
+    margin-top: 0;
+    margin-bottom: 5%;
+  }
+
+  #footer-description {
+    width: 100%;
+    text-align: left;
+  }
+
+  #footer-text-container > div:first-child {
+    order: 1;
+    flex: 1 1 100%;
+  }
+
+  #footer-text-container > div:nth-child(2),
+  #footer-text-container > div:last-child {
+    order: 2;
+    flex: 1 1 calc(50% - 10px);
+    margin-right: 10px;
+  }
+  #footer-horizontal-line {
+    color: #ffffff;
+    width: 630px;
+  }
+}
+@media (max-width: 375px) {
+  #footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #footer-text-container {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 110%;
+  }
+
+  #footer-text-container > div {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  #footer-logo {
+    margin-top: 0;
+    margin-bottom: 5%;
+  }
+
+  #footer-description {
+    width: 150%;
+    text-align: left;
+  }
+
+  #footer-text-container > div:first-child {
+    order: 1;
+    flex: 1 1 100%;
+  }
+
+  #footer-text-container > div:nth-child(2),
+  #footer-text-container > div:last-child {
+    order: 2;
+    flex: 1 1 calc(90% - 10px);
+    margin-right: 10px;
+    margin-left: 5%;
+    width: auto;
+  }
+  #footer-horizontal-line {
+    color: #ffffff;
+    width: 335px;
+  }
+}
